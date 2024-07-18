@@ -9,7 +9,7 @@ namespace reflector.Models
     internal class Student
     {
         public int RollNo { get; set; }
-        public string Name { get; set; }
+        public string Name { get; set; } //total 2 autoproperties
 
        
         public Student()
@@ -22,7 +22,7 @@ namespace reflector.Models
         {
             RollNo = rollno;
             Name = name;
-        }
+        } //2 constructors
 
         
         public void displayData()
